@@ -57,7 +57,7 @@ The Callback URL for our sample project is `http://localhost:5000/signin-auth0`.
 
 ## Connections
 
-The next step is to configure the identity providers that will be used for authentication at the web app. Each identity provides maps to a __connection__ in Auth0. Each application needs at least one connection, and each connection can be used for more than one application.
+The next step is to configure the identity providers that will be used for authentication at the web app. Each identity provider maps to a __connection__ in Auth0. Each application needs at least one connection, and each connection can be used for more than one application.
 
 ExampleCo needs to configure two connections: one Active Directory connection for the internal employees, and one Database connection for external parties.
 
